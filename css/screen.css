@@ -29,7 +29,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 3rem;
 }
 
 .main {
@@ -136,4 +136,33 @@ body,
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
+}
+
+/*Banner*/
+#banner {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.heading {
+    margin-bottom: 80px;
+}
+
+.btn-serenity {
+    color: #000;
+    border: none;
+    padding: 10px 45px;
+}
+
+.btn-primary-serenity {
+    background: orange !important;
+    color: #fff;
+}
+
+.btn-serenity:hover {
+    opacity: 0.95;
+}
+
+.btn-default-serenity {
+    background: #fff;
 }
